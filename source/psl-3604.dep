@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4070694490</fileChecksum>
+  <configuration>
+    <name>PSL-3604</name>
+    <outputs>
+      <file>$PROJ_DIR$\Source\display.cpp</file>
+      <file>$PROJ_DIR$\Source\analog.cpp</file>
+      <file>$PROJ_DIR$\Source\fan.cpp</file>
+      <file>$PROJ_DIR$\Source\sound.cpp</file>
+      <file>$PROJ_DIR$\Source\sreg.cpp</file>
+      <file>$PROJ_DIR$\Source\systimer.cpp</file>
+      <file>$PROJ_DIR$\Source\therm.cpp</file>
+      <file>$PROJ_DIR$\Source\wake.cpp</file>
+      <file>$PROJ_DIR$\Source\wakeport.cpp</file>
+      <file>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</file>
+      <file>$PROJ_DIR$\Source\eeprom.cpp</file>
+      <file>$PROJ_DIR$\Source\Sys\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Source\i2csw.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\fan.pbi</file>
+      <file>$PROJ_DIR$\Source\control.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\data.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\timer.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\sound.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Source\timer.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\i2csw.o</file>
+      <file>$PROJ_DIR$\Source\systimer.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\Source\keyboard.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\display.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\sound.o</file>
+      <file>$PROJ_DIR$\PSL-3604\List\wake.s</file>
+      <file>$PROJ_DIR$\PSL-3604\List\therm.s</file>
+      <file>$PROJ_DIR$\Source\therm.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_ne.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\analog.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\menu.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\fan.s</file>
+      <file>$PROJ_DIR$\PSL-3604\List\sreg.s</file>
+      <file>$PROJ_DIR$\Source\control.cpp</file>
+      <file>$PROJ_DIR$\Source\encoder.cpp</file>
+      <file>$PROJ_DIR$\Source\data.cpp</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\data.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\eeprom.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Source\overadc.h</file>
+      <file>$PROJ_DIR$\Source\timer.cpp</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\menu.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\main.s</file>
+      <file>$PROJ_DIR$\Source\ditherdac.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\sreg.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\encoder.o</file>
+      <file>$PROJ_DIR$\Source\wakeport.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\display.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\keyboard.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\psl-3604.pbd</file>
+      <file>$PROJ_DIR$\Source\i2csw.cpp</file>
+      <file>$PROJ_DIR$\Source\keyboard.cpp</file>
+      <file>$PROJ_DIR$\Source\main.cpp</file>
+      <file>$PROJ_DIR$\Source\menu.cpp</file>
+      <file>$PROJ_DIR$\Source\port.cpp</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\wake.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\eeprom.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\analog.o</file>
+      <file>$PROJ_DIR$\Source\sound.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\systimer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Source\analog.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Exe\psl-3604.hex</file>
+      <file>$PROJ_DIR$\Source\wake.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\fan.o</file>
+      <file>$PROJ_DIR$\Source\port.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\startup_stm32f10x_md_vl.o</file>
+      <file>$PROJ_DIR$\PSL-3604\List\display.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\data.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\wakeport.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\therm.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\analog.s</file>
+      <file>$PROJ_DIR$\psl-3604.icf</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\control.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\sreg.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\wake.o</file>
+      <file>$PROJ_DIR$\PSL-3604\List\i2csw.s</file>
+      <file>$PROJ_DIR$\PSL-3604\List\wakeport.s</file>
+      <file>$PROJ_DIR$\Source\display.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\control.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\therm.o</file>
+      <file>$PROJ_DIR$\PSL-3604\List\port.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\encoder.pbi</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Source\eeprom.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\i2csw.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\port.o</file>
+      <file>$PROJ_DIR$\PSL-3604\List\encoder.s</file>
+      <file>$PROJ_DIR$\Source\sreg.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\menu.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\systimer.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\List\systimer.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\timer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\eeprom.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\keyboard.pbi</file>
+      <file>$PROJ_DIR$\Source\data.h</file>
+      <file>$PROJ_DIR$\Source\gpio.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\sound.s</file>
+      <file>$PROJ_DIR$\Source\encoder.h</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\control.pbi</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\main.o</file>
+      <file>$PROJ_DIR$\PSL-3604\Obj\wakeport.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\keyboard.s</file>
+      <file>$PROJ_DIR$\PSL-3604\Exe\psl-3604.out</file>
+      <file>$PROJ_DIR$\Source\menu.h</file>
+      <file>$PROJ_DIR$\Source\fan.h</file>
+      <file>$PROJ_DIR$\PSL-3604\List\psl-3604.map</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Source\main.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Source\display.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 88 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 88 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\analog.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 69 31 120 109 88 99 95 49 45 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 69 31 120 109 88 99 95 49 45 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\fan.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 120 109 88 99 95 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\sound.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\sreg.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 99</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\systimer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\therm.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wake.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\wakeport.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87 115</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 52 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 52 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\Sys\startup_stm32f10x_md_vl.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\eeprom.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 12 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 12 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 118 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\control.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 15 112 26 119 109 88 99 95 66 69 31 120 49 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\encoder.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 112 109 88 99 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 112 109 88 99 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\data.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 109 88 99 95 69 31 120 49 45 66 112</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 109 88 99 95 69 31 120 49 45 66 112</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\timer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 21</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\i2csw.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\keyboard.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 15 112 26 119 109 88 99 95 75 52 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 15 112 26 119 109 88 99 95 75 52 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\menu.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35 101</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 119 109 88 99 95 26 66 112 15 69 31 120 49 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 119 109 88 99 95 26 66 112 15 69 31 120 49 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Source\port.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 75 52 72 109 88 99 95 69 31 120 49 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123 106 92 44 68 116 55 54 36 11 22 94 70 33 122 110 24 75 52 72 109 88 99 95 69 31 120 49 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PSL-3604\Exe\psl-3604.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 82 65 83 78 27 43 51 74 23 56 114 101 97 28 84 76 67 90 85 115 20 100 32 25 73</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
