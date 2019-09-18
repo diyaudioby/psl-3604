@@ -3,8 +3,7 @@
 ![psl-3604](./images/psl-3604_view.jpg)
 
 ### Description
-
-Laboratory power supply
+Laboratory power supply 36V, 4A
 
 ### Links
 - [http://www.leoniv.diod.club/projects/power/psl-3604/psl-3604.html](http://www.leoniv.diod.club/projects/power/psl-3604/psl-3604.html)
@@ -13,11 +12,10 @@ Laboratory power supply
 - Shematic, pcb, device design - [Leonid Ivanovich aka Liv](http://www.leoniv.diod.club/contacts/contacts.html)
 
 ### Buy parts for assembling
-- For assembly, you need 3 printed circuit boards:
-    - Power pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pow.html)
-    - Panel pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pan_1.html)
-    - Out pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_out_1.html)
-- Case - [Kradex z2a](https://www.kradex.com.pl/product/z2a?lang=en&session=0cbf1db59e55cafd6e80abf157057fbb)
+For assembly, you need 3 printed circuit boards:
+  - Power pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pow.html)
+  - Panel pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pan_1.html)
+  - Out pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_out_1.html)
 
 ### Folder structure
 Most folder names are self explanatory.
