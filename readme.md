@@ -14,8 +14,8 @@ Laboratory power supply 36V, 4A
 ### Buy parts for assembling
 For assembly, you need 3 printed circuit boards:
   - Power pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pow.html)
-  - Panel pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pan_1.html)
-  - Out pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_out_1.html)
+  - Panel pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_pan_2.html)
+  - Out pcb - [Order PCB from PCBWay](https://www.pcbway.com/project/shareproject/psl_3604_out_2.html)
 
 ### Folder structure
 Most folder names are self explanatory.
